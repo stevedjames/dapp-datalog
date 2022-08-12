@@ -1,0 +1,75 @@
+0x9c5D464b7e64BF6B01003806CbB7054305276765
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_dataID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_dataName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_time",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_date",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_username",
+				"type": "string"
+			}
+		],
+		"name": "newData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "dataLogs",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "dataName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "time",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "date",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "username",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
